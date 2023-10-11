@@ -19,7 +19,7 @@
 | -------- | -------------------- | ------------- | -------- |
 | +        | seštevanje           | 4 + 3         | 7        |
 | -        | odštevanje           | 2 - 6         | -4       |
-| *        | množenje             | 3 * 5         | 15       |
+| \*       | množenje             | 3 \* 5        | 15       |
 | /        | deljenje             | 7 / 2         | 3        |
 | /        | deljenje             | 7.0 / 2       | 3.5      |
 | %        | ostanek pri deljenju | 7 % 2         | 1        |
@@ -43,7 +43,7 @@ double novoPovprecje = ((double)(a + b + c)) / 3.0; // 13.0 / 3.0 ->4,33
 
 char stevka = '1'; // A -> 65, a -> 96 ...int
 (int) stevka; // 49, ker je ASCII koda od 1 -> 49
-(char) ('c' - 'a' + 'A') // C 
+(char) ('c' - 'a' + 'A') // C
 ```
 
 Spremenljivke ohranjajo vrednost, razen če jih eksplicitno nastavimo
@@ -53,3 +53,5 @@ Spremenljivke ohranjajo vrednost, razen če jih eksplicitno nastavimo
 Hello World
 
 Računanje starosti iz leta rojstva
+
+[Pozdrav.java](Pozdrav.java)
