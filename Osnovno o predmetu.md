@@ -16,4 +16,6 @@ Na spletni učilnici
 ## Izziv
 Občasno
 
+## [Spletna učilnica](https://ucilnica.fri.uni-lj.si/course/view.php?id=389)
+
 

@@ -19,9 +19,9 @@ else {
 }
 ```
 
-[Vecje.java](Vecje.java)
+[Vecje.java](primeri/Vecje.java)
 
-[Vecje2.java](Vecje2.java)
+[Vecje2.java](primeri/Vecje2.java)
 
 ### Operatorji
 
@@ -38,7 +38,7 @@ else {
 
 ! ima prednost pred &&, && ima prednost pred ||
 
-[Prestopno.java](Prestopno.java)
+[Prestopno.java](primeri/Prestopno.java)
 
 ## Zanke
 
@@ -61,7 +61,7 @@ System.out.println("b");
 | 3   | a     |
 | 4   | b     |
 
-[Sestevanje.java](Sestevanje.java)
+[Sestevanje.java](primeri/Sestevanje.java)
 
 #### Okrajšave
 
@@ -76,7 +76,7 @@ a--;
 --a;
 ```
 
-[Sestevanje2.java](Sestevanje2.java)
+[Sestevanje2.java](primeri/Sestevanje2.java)
 
 ## Zanka DO
 
@@ -89,7 +89,7 @@ do {
 
 Zanka se vsaj enkrat izvrši
 
-[Nadlegovanje](Nadlegovanje.java)
+[Nadlegovanje](primeri/Nadlegovanje.java)
 
 ## Zanka FOR
 
@@ -110,6 +110,6 @@ for (int i = 1; i <= 3; i++) {
 System.out.println("b");
 ```
 
-[Sestevanje2For.java](Sestevanje2For.java)
+[Sestevanje2For.java](primeri/Sestevanje2For.java)
 
-[Najboljsi](Najboljsi.java)
+[Najboljsi](primeri/Najboljsi.java)

@@ -1,4 +1,4 @@
-package t02;
+package t02.primeri;
 
 import java.util.Scanner;
 

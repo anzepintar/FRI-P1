@@ -1,4 +1,4 @@
-package t01;
+package t01.primeri;
 
 import java.util.Scanner;
 

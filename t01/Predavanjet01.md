@@ -54,4 +54,4 @@ Hello World
 
 Računanje starosti iz leta rojstva
 
-[Pozdrav.java](Pozdrav.java)
+[Pozdrav.java](primeri/Pozdrav.java)
