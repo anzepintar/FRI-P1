@@ -1,5 +1,3 @@
-package t02.primeri;
-
 import java.util.Scanner;
 
 public class Nadlegovanje {

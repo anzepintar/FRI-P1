@@ -1,5 +1,3 @@
-package t01.primeri;
-
 import java.util.Scanner;
 
 class Pozdrav {
