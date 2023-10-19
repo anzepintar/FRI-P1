@@ -1,6 +1,11 @@
+### tj.exe ###
+tj.exe
+
 ### Java ###
 # Compiled class file
 *.class
+# jar
+*.jar
 
 # Log file
 *.log
