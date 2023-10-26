@@ -1,0 +1,5 @@
+500 EP -> zgoscenka 1 (500 EP)
+200 EP -> zgoscenka 1 (700 EP)
+300 EP -> zgoscenka 2 (300 EP)
+600 EP -> zgoscenka 3 (600 EP)
+50 EP -> zgoscenka 3 (650 EP)
