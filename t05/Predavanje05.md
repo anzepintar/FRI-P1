@@ -1,4 +1,4 @@
-# Programiranje t04 - 08. 11. 2023
+# Programiranje t05 - 08. 11. 2023
 
 ## Tabele
 
