@@ -56,3 +56,11 @@ public static void ...(...) {
 ```
 
 [Kriz1.java](primeri/Kriz1.java)
+
+### Rekurzija
+
+#### Fibonaccijevo zaporedje
+
+0 + 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 24
+
+[Fibonacci.java](primeri/Fibonacci.java)
