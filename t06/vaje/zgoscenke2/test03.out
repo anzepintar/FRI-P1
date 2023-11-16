@@ -1,0 +1,7 @@
+500 EP -> zgoscenka 1 [500, 0, 0, 0]
+200 EP -> zgoscenka 2 [500, 200, 0, 0]
+300 EP -> zgoscenka 3 [500, 200, 300, 0]
+600 EP -> zgoscenka 4 [500, 200, 300, 600]
+50 EP -> zgoscenka 2 [500, 250, 300, 600]
+100 EP -> zgoscenka 2 [500, 350, 300, 600]
+400 EP -> zgoscenka 3 [500, 350, 700, 600]
