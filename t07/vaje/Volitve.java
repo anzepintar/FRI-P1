@@ -40,9 +40,8 @@ public class Volitve {
         int vsotaUvrstitev = 0;
         for (int i = 0; i < t.length; i++) {
             int mesto = 1;
-            int stGlasov = t[i][stranka][volisce];
             for (int j = 0; j < t[0].length; j++) {
-                if (t[i][j][volisce] > stGlasov) {
+                if (t[i][j][volisce] > t[i][stranka][volisce]) {
                     mesto++;
                 }
             }
