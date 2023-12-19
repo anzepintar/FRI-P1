@@ -1,0 +1,10 @@
+Oseba/toString                --> OK
+Oseba/jeStarejsaOd            --> OK
+Stanovanje/steviloStanovalcev --> OK
+Stanovanje/steviloStarejsihOd --> OK
+Stanovanje/mz                 --> OK
+Stanovanje/starosta           --> OK
+Stanovanje/starostaSosescine  --> OK
+Stanovanje/sosedjeSosedov     --> OK
+Blok/starosta                 --> OK
+Blok/razporeditev             --> OK
