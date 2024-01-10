@@ -1,4 +1,4 @@
-# Programiranje t02 - 11. 10. 2023
+# Programiranje - 11. 10. 2023
 
 ## Izrazi
 

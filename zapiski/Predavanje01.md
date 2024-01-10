@@ -1,4 +1,4 @@
-# Programiranje t01 - 04. 10. 2023
+# Programiranje - 04. 10. 2023
 
 ## Osnovni pojmi
 

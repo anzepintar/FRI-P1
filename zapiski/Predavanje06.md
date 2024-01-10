@@ -1,4 +1,4 @@
-# Programiranje t06 - 15. 11. 2023
+# Programiranje - 15. 11. 2023
 
 ## Eraotstenovo Sito
 

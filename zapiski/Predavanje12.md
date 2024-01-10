@@ -1,4 +1,4 @@
-# Programiranje t11 - 3. 1. 2024
+# Programiranje - 03. 01. 2024
 
 ## Vsebovalniki
 

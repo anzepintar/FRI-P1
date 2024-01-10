@@ -1,4 +1,4 @@
-# Programiranje t11 - 20. 12. 2023
+# Programiranje - 20. 12. 2023
 
 ## Generični razredi
 

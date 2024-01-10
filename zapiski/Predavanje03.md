@@ -1,4 +1,4 @@
-# Programiranje t03 - 18. 10. 2023
+# Programiranje - 18. 10. 2023
 
 ## Primeri programov
 

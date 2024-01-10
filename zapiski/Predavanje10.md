@@ -1,4 +1,4 @@
-# Programiranje t10 - 13. 12. 2023
+# Programiranje - 13. 12. 2023
 
 ## Razred Object
 

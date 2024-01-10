@@ -1,4 +1,4 @@
-# Programiranje t04 - 25. 10. 2023
+# Programiranje - 25. 10. 2023
 
 ## Switch
 
