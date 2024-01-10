@@ -1,0 +1,11 @@
+dan: 4
+danes: 3
+javi: 1
+je: 4
+lep: 3
+prav: 2
+programiranje: 2
+res: 2
+to: 1
+v: 1
+za: 2

@@ -1,6 +1,6 @@
 
 /*
- * Objekt tega razred predstavlja vektor z elementi tipa T.
+ * Objekt tega razred predstavlja vektor z elementi generičnega tipa T.
  */
 
 public class Vektor<T> {
@@ -16,7 +16,7 @@ public class Vektor<T> {
     @SuppressWarnings("unchecked")
     public Vektor() {
         this.elementi = (T[]) new Object[ZACETNA_KAPACITETA];
-        this.stElementov = 0; // odveč, a poveča jasnost
+        this.stElementov = 0;  // odveč, a poveča jasnost
     }
 
     // Vrne število elementov vektorja this.
@@ -45,7 +45,7 @@ public class Vektor<T> {
     // indeksom.
     public void vstavi(int indeks, T vrednost) {
         this.poPotrebiPovecaj();
-        for (int i = this.stElementov - 1; i >= indeks; i--) {
+        for (int i = this.stElementov - 1;  i >= indeks;  i--) {
             this.elementi[i + 1] = this.elementi[i];
         }
         this.elementi[indeks] = vrednost;
@@ -54,21 +54,21 @@ public class Vektor<T> {
 
     // Izloči element na podanem indeksu.
     public void odstrani(int indeks) {
-        for (int i = indeks; i < this.stElementov - 1; i++) {
+        for (int i = indeks;  i < this.stElementov - 1;  i++) {
             this.elementi[i] = this.elementi[i + 1];
         }
         this.stElementov--;
     }
 
     // Če je trenutno število elementov v vektorju enako
-    // njegovi kapaciteti, ga "raztegne" (ustvari novo, večjo
+    // njegovi kapaciteti, ga "raztegne" (ustvari novo, večjo 
     // tabelo in vanjo skopira elemente trenutne tabele).
     @SuppressWarnings("unchecked")
     private void poPotrebiPovecaj() {
         if (this.stElementov == this.elementi.length) {
             T[] stariElementi = this.elementi;
             this.elementi = (T[]) new Object[2 * stariElementi.length];
-            for (int i = 0; i < this.stElementov; i++) {
+            for (int i = 0;  i < this.stElementov;  i++) {
                 this.elementi[i] = stariElementi[i];
             }
         }
@@ -80,7 +80,7 @@ public class Vektor<T> {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
-        for (int i = 0; i < this.stElementov; i++) {
+        for (int i = 0;  i < this.stElementov;  i++) {
             if (i > 0) {
                 sb.append(", ");
             }

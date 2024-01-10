@@ -1,0 +1,12 @@
+nk K326 Janez_Novak
+nk K715 Mojca_Bizjak
+nr K326 RA5046
+nr K715 RA8391
+nr K326 RA1940
++ RA8391 100
+- RA1940 30
+?r RA8391
+?r RA1940
+-> RA8391 RA5046 40
+?k K715
+?k K326

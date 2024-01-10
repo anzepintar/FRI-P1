@@ -1,0 +1,4 @@
+100
+-30
+Mojca_Bizjak | RA8391: 60
+Janez_Novak | RA5046: 40 | RA1940: -30
