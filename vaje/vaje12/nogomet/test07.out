@@ -1,0 +1,1 @@
+[Zeleni, Beli, Rdeci, Crni]
