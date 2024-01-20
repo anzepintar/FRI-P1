@@ -29,7 +29,6 @@ public class Tekm_63230247 implements Stroj {
             this.trenutneBesede = new TreeSet<>(this.slovar);
             // poriea je idealna prva beseda, če se slovar ne bi zmanjševal
             this.nazadnjePreverjena = najboljMozenNiz(this.trenutneBesede);
-            System.out.println(this.nazadnjePreverjena);
             return this.nazadnjePreverjena;
         } else {
             if (vseEnako(odziv, '+')) {
