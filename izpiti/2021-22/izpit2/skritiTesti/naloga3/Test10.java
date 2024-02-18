@@ -1,0 +1,93 @@
+
+import java.util.*;
+
+public class Test10 {
+
+    public static void main(String[] args) {
+        Tretja.Predavalnica[] predavalnice = new Tretja.Predavalnica[81];
+        predavalnice[0] = new Tretja.Garaza("G1", 260, 331);
+        predavalnice[1] = new Tretja.Garaza("G2", 300, 228);
+        predavalnice[2] = new Tretja.Racunalnica("R1", 95, 60);
+        predavalnice[3] = new Tretja.Avditorna("A1", 128);
+        predavalnice[4] = new Tretja.Garaza("G3", 261, 416);
+        predavalnice[5] = new Tretja.Garaza("G4", 207, 132);
+        predavalnice[6] = new Tretja.Garaza("G5", 286, 473);
+        predavalnice[7] = new Tretja.Avditorna("A2", 152);
+        predavalnice[8] = new Tretja.Racunalnica("R2", 97, 97);
+        predavalnice[9] = new Tretja.Garaza("G6", 101, 500);
+        predavalnice[10] = new Tretja.Avditorna("A3", 152);
+        predavalnice[11] = new Tretja.Racunalnica("R3", 65, 12);
+        predavalnice[12] = new Tretja.Racunalnica("R4", 78, 30);
+        predavalnice[13] = new Tretja.Racunalnica("R5", 32, 19);
+        predavalnice[14] = new Tretja.Avditorna("A4", 135);
+        predavalnice[15] = new Tretja.Racunalnica("R6", 35, 16);
+        predavalnice[16] = new Tretja.Avditorna("A5", 120);
+        predavalnice[17] = new Tretja.Garaza("G7", 63, 400);
+        predavalnice[18] = new Tretja.Garaza("G8", 61, 260);
+        predavalnice[19] = new Tretja.Garaza("G9", 247, 446);
+        predavalnice[20] = new Tretja.Garaza("G10", 136, 294);
+        predavalnice[21] = new Tretja.Racunalnica("R7", 24, 2);
+        predavalnice[22] = new Tretja.Racunalnica("R8", 30, 1);
+        predavalnice[23] = new Tretja.Garaza("G11", 289, 484);
+        predavalnice[24] = new Tretja.Garaza("G12", 266, 399);
+        predavalnice[25] = new Tretja.Avditorna("A6", 267);
+        predavalnice[26] = new Tretja.Garaza("G13", 200, 482);
+        predavalnice[27] = new Tretja.Garaza("G14", 158, 273);
+        predavalnice[28] = new Tretja.Avditorna("A7", 154);
+        predavalnice[29] = new Tretja.Garaza("G15", 144, 161);
+        predavalnice[30] = new Tretja.Garaza("G16", 163, 430);
+        predavalnice[31] = new Tretja.Avditorna("A8", 261);
+        predavalnice[32] = new Tretja.Garaza("G17", 152, 362);
+        predavalnice[33] = new Tretja.Garaza("G18", 278, 308);
+        predavalnice[34] = new Tretja.Garaza("G19", 168, 101);
+        predavalnice[35] = new Tretja.Garaza("G20", 246, 121);
+        predavalnice[36] = new Tretja.Racunalnica("R9", 73, 17);
+        predavalnice[37] = new Tretja.Garaza("G21", 247, 326);
+        predavalnice[38] = new Tretja.Avditorna("A9", 229);
+        predavalnice[39] = new Tretja.Avditorna("A10", 257);
+        predavalnice[40] = new Tretja.Avditorna("A11", 190);
+        predavalnice[41] = new Tretja.Garaza("G22", 155, 300);
+        predavalnice[42] = new Tretja.Garaza("G23", 300, 113);
+        predavalnice[43] = new Tretja.Garaza("G24", 183, 387);
+        predavalnice[44] = new Tretja.Garaza("G25", 71, 350);
+        predavalnice[45] = new Tretja.Avditorna("A12", 87);
+        predavalnice[46] = new Tretja.Garaza("G26", 142, 294);
+        predavalnice[47] = new Tretja.Garaza("G27", 257, 139);
+        predavalnice[48] = new Tretja.Garaza("G28", 167, 453);
+        predavalnice[49] = new Tretja.Garaza("G29", 105, 122);
+        predavalnice[50] = new Tretja.Avditorna("A13", 213);
+        predavalnice[51] = new Tretja.Racunalnica("R10", 29, 22);
+        predavalnice[52] = new Tretja.Avditorna("A14", 253);
+        predavalnice[53] = new Tretja.Garaza("G30", 165, 312);
+        predavalnice[54] = new Tretja.Racunalnica("R11", 34, 12);
+        predavalnice[55] = new Tretja.Avditorna("A15", 183);
+        predavalnice[56] = new Tretja.Avditorna("A16", 90);
+        predavalnice[57] = new Tretja.Garaza("G31", 95, 493);
+        predavalnice[58] = new Tretja.Racunalnica("R12", 99, 24);
+        predavalnice[59] = new Tretja.Racunalnica("R13", 33, 6);
+        predavalnice[60] = new Tretja.Garaza("G32", 291, 108);
+        predavalnice[61] = new Tretja.Racunalnica("R14", 61, 59);
+        predavalnice[62] = new Tretja.Garaza("G33", 122, 216);
+        predavalnice[63] = new Tretja.Avditorna("A17", 70);
+        predavalnice[64] = new Tretja.Racunalnica("R15", 88, 88);
+        predavalnice[65] = new Tretja.Garaza("G34", 99, 476);
+        predavalnice[66] = new Tretja.Avditorna("A18", 95);
+        predavalnice[67] = new Tretja.Racunalnica("R16", 64, 62);
+        predavalnice[68] = new Tretja.Garaza("G35", 67, 307);
+        predavalnice[69] = new Tretja.Racunalnica("R17", 20, 9);
+        predavalnice[70] = new Tretja.Racunalnica("R18", 12, 3);
+        predavalnice[71] = new Tretja.Garaza("G36", 57, 445);
+        predavalnice[72] = new Tretja.Garaza("G37", 138, 344);
+        predavalnice[73] = new Tretja.Garaza("G38", 149, 261);
+        predavalnice[74] = new Tretja.Avditorna("A19", 299);
+        predavalnice[75] = new Tretja.Avditorna("A20", 77);
+        predavalnice[76] = new Tretja.Racunalnica("R19", 77, 54);
+        predavalnice[77] = new Tretja.Garaza("G39", 243, 241);
+        predavalnice[78] = new Tretja.Racunalnica("R20", 46, 13);
+        predavalnice[79] = new Tretja.Avditorna("A21", 188);
+        predavalnice[80] = new Tretja.Garaza("G40", 184, 207);
+        Tretja.Stavba stavba = new Tretja.Stavba(predavalnice);
+
+        System.out.println(stavba.casCiscenja());
+    }
+}

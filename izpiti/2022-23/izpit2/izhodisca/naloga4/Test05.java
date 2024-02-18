@@ -1,0 +1,103 @@
+
+import java.util.*;
+
+public class Test05 {
+
+    public static void main(String[] args) {
+
+        Map<String, Set<String>> sinonimi = new HashMap<>();
+        sinonimi.put("mcpae", Set.of("mcpae", "iqhk", "nz", "kwgjo", "okgky"));
+        sinonimi.put("iqhk", Set.of("mcpae", "iqhk", "nz", "kwgjo", "okgky"));
+        sinonimi.put("nz", Set.of("mcpae", "iqhk", "nz", "kwgjo", "okgky"));
+        sinonimi.put("kwgjo", Set.of("mcpae", "iqhk", "nz", "kwgjo", "okgky"));
+        sinonimi.put("okgky", Set.of("mcpae", "iqhk", "nz", "kwgjo", "okgky"));
+        sinonimi.put("da", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("eea", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("xp", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("az", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("fu", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("exw", Set.of("da", "eea", "xp", "az", "fu", "exw"));
+        sinonimi.put("zcraa", Set.of("zcraa", "sjv", "qa"));
+        sinonimi.put("sjv", Set.of("zcraa", "sjv", "qa"));
+        sinonimi.put("qa", Set.of("zcraa", "sjv", "qa"));
+        sinonimi.put("yxrus", Set.of("yxrus", "hx", "b", "ot", "qn"));
+        sinonimi.put("hx", Set.of("yxrus", "hx", "b", "ot", "qn"));
+        sinonimi.put("b", Set.of("yxrus", "hx", "b", "ot", "qn"));
+        sinonimi.put("ot", Set.of("yxrus", "hx", "b", "ot", "qn"));
+        sinonimi.put("qn", Set.of("yxrus", "hx", "b", "ot", "qn"));
+        sinonimi.put("rbheo", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("or", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("zql", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("nlmna", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("mqxg", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("onhmn", Set.of("rbheo", "or", "zql", "nlmna", "mqxg", "onhmn"));
+        sinonimi.put("am", Set.of("am", "urxxd", "krsau", "ws"));
+        sinonimi.put("urxxd", Set.of("am", "urxxd", "krsau", "ws"));
+        sinonimi.put("krsau", Set.of("am", "urxxd", "krsau", "ws"));
+        sinonimi.put("ws", Set.of("am", "urxxd", "krsau", "ws"));
+        sinonimi.put("gt", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("rdpms", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("ucne", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("drcf", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("ezgx", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("rag", Set.of("gt", "rdpms", "ucne", "drcf", "ezgx", "rag"));
+        sinonimi.put("af", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("mcwxf", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("u", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("dds", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("lvjf", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("p", Set.of("af", "mcwxf", "u", "dds", "lvjf", "p"));
+        sinonimi.put("njzex", Set.of("njzex", "ypaul", "ha"));
+        sinonimi.put("ypaul", Set.of("njzex", "ypaul", "ha"));
+        sinonimi.put("ha", Set.of("njzex", "ypaul", "ha"));
+        sinonimi.put("rzr", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("wp", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("rjan", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("kl", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("xrn", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("hsy", Set.of("rzr", "wp", "rjan", "kl", "xrn", "hsy"));
+        sinonimi.put("rkzgs", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("xxv", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("y", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("jwj", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("alla", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("jt", Set.of("rkzgs", "xxv", "y", "jwj", "alla", "jt"));
+        sinonimi.put("ivv", Set.of("ivv", "dw", "il", "qxdsb", "glbc"));
+        sinonimi.put("dw", Set.of("ivv", "dw", "il", "qxdsb", "glbc"));
+        sinonimi.put("il", Set.of("ivv", "dw", "il", "qxdsb", "glbc"));
+        sinonimi.put("qxdsb", Set.of("ivv", "dw", "il", "qxdsb", "glbc"));
+        sinonimi.put("glbc", Set.of("ivv", "dw", "il", "qxdsb", "glbc"));
+        sinonimi.put("bkoit", Set.of("bkoit", "sq", "oljse"));
+        sinonimi.put("sq", Set.of("bkoit", "sq", "oljse"));
+        sinonimi.put("oljse", Set.of("bkoit", "sq", "oljse"));
+        sinonimi.put("yvd", Set.of("yvd", "uze", "cqosg", "mihhj"));
+        sinonimi.put("uze", Set.of("yvd", "uze", "cqosg", "mihhj"));
+        sinonimi.put("cqosg", Set.of("yvd", "uze", "cqosg", "mihhj"));
+        sinonimi.put("mihhj", Set.of("yvd", "uze", "cqosg", "mihhj"));
+        sinonimi.put("ouumu", Set.of("ouumu", "gtj", "eyq", "fse"));
+        sinonimi.put("gtj", Set.of("ouumu", "gtj", "eyq", "fse"));
+        sinonimi.put("eyq", Set.of("ouumu", "gtj", "eyq", "fse"));
+        sinonimi.put("fse", Set.of("ouumu", "gtj", "eyq", "fse"));
+        sinonimi.put("embu", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("gczz", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("imehz", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("lrl", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("hohx", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("hcycq", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("grj", Set.of("embu", "gczz", "imehz", "lrl", "hohx", "hcycq", "grj"));
+        sinonimi.put("ophef", Set.of("ophef", "kx", "lgt", "tulkw", "npm"));
+        sinonimi.put("kx", Set.of("ophef", "kx", "lgt", "tulkw", "npm"));
+        sinonimi.put("lgt", Set.of("ophef", "kx", "lgt", "tulkw", "npm"));
+        sinonimi.put("tulkw", Set.of("ophef", "kx", "lgt", "tulkw", "npm"));
+        sinonimi.put("npm", Set.of("ophef", "kx", "lgt", "tulkw", "npm"));
+        sinonimi.put("ph", Set.of("ph", "pd", "sw", "lyksy", "i"));
+        sinonimi.put("pd", Set.of("ph", "pd", "sw", "lyksy", "i"));
+        sinonimi.put("sw", Set.of("ph", "pd", "sw", "lyksy", "i"));
+        sinonimi.put("lyksy", Set.of("ph", "pd", "sw", "lyksy", "i"));
+        sinonimi.put("i", Set.of("ph", "pd", "sw", "lyksy", "i"));
+
+        List<String> besede = new ArrayList<>(Cetrta.najMnozica(sinonimi));
+        besede.sort(null);
+        System.out.println(besede);
+    }
+}
